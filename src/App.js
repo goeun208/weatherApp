@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 function App() {
   const [location, setLocation] = useState('');
-  const API_KEY = 'e39ab74942248bdb2681a94e2b7c4232';
+  const API_KEY = 'secret';
 
   const [result, setResult] = useState({});
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`;
